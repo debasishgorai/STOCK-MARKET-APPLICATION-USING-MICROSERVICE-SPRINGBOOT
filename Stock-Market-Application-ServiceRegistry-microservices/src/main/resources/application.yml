@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Stock-Market-Application-ServiceRegistry-microservices
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Stock-Market-Application-STOCK-CALC-API-microservices
+server:
+  port: 2222
+
+
+  datasource:
+    url: jdbc:h2:mem:testDB
+    username: root
+    password: 1234
+    driver-class-name: org.h2.Driver
+    management:
+    endpoints:
+    web:
+    exposure:
+    include: '*'
